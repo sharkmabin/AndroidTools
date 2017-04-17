@@ -706,6 +706,7 @@ public class BarUtils {
      * @param context    上下文
      * @param methodName 方法名
      */
+    @SuppressWarnings("WrongConstant")
     private static void invokePanels(Context context, String methodName) {
         try {
             Object service = context.getSystemService("statusbar");
